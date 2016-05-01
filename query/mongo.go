@@ -6,8 +6,6 @@ import (
 	"log"
 )
 
-
-
 // Create a new MongoDB session.
 //
 // It's the calling function's responsibility to close the session
@@ -27,11 +25,11 @@ func FindOne(query interface{}) (station lib.Station, err error) {
 	s := session()
 	defer s.Close()
 	c := s.DB("tfldata").C("tube_stations")
-    station = lib.Station{}
+	station = lib.Station{}
 	err = c.Find(query).One(&station)
 
-    // some other error happened??
-    if err != nil && err != mgo.ErrNotFound {
+	// some other error happened??
+	if err != nil && err != mgo.ErrNotFound {
 		log.Fatal("MongoDB query failed. %q", err)
 	}
 
@@ -39,13 +37,13 @@ func FindOne(query interface{}) (station lib.Station, err error) {
 }
 
 func FindMany(query interface{}) (stations []lib.Station, err error) {
-    s := session()
-    defer s.Close()
-    c := s.DB("tfldata").C("tube_stations")
-    stations = []lib.Station{}
-    err = c.Find(query).All(&stations)
-    // some other error happened??
-    if err != nil && err != mgo.ErrNotFound {
+	s := session()
+	defer s.Close()
+	c := s.DB("tfldata").C("tube_stations")
+	stations = []lib.Station{}
+	err = c.Find(query).All(&stations)
+	// some other error happened??
+	if err != nil && err != mgo.ErrNotFound {
 		log.Fatal("MongoDB query failed. %q", err)
 	}
 

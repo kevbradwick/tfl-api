@@ -9,12 +9,12 @@ import (
 )
 
 type Error struct {
-	Code    int `json:"code"`
+	Code    int    `json:"code"`
 	Message string `json:"message"`
 }
 
 type ListResponse struct {
-	Total   int `json:"total"`
+	Total   int           `json:"total"`
 	Results []interface{} `json:"results"`
 }
 
