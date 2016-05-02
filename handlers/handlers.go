@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"strconv"
 	"strings"
+	"github.com/kevbradwick/tflapi/lib"
 )
 
 type Error struct {
@@ -17,7 +18,7 @@ type Error struct {
 
 type ListResponse struct {
 	Total   int           `json:"total"`
-	Results []interface{} `json:"results"`
+	Results []lib.Station `json:"results"`
 }
 
 func GetStation(w http.ResponseWriter, r *http.Request) {
@@ -52,6 +53,8 @@ func GetStation(w http.ResponseWriter, r *http.Request) {
 //
 func Search(w http.ResponseWriter, r *http.Request) {
 	var val string
+	//var page int = 1
+
 	q := bson.M{}
 
 	if val = r.URL.Query().Get("name"); val != "" {
@@ -74,12 +77,20 @@ func Search(w http.ResponseWriter, r *http.Request) {
 		q["location"] = bson.M{"$near": bson.M{"$geometry": bson.M{"type": "Point", "coordinates": []float64{lon, lat}}}}
 	}
 
-	stations, err := query.FindMany(q)
+	if val = r.URL.Query().Get("page"); val != "" {
+		//page = strconv.Atoi(val)
+	}
+
+	count, _ := query.Count(q)
+	stations, err := query.FindMany(q, -1, -1)
+
+	response := &ListResponse{count, stations}
+
 	if err != nil {
 		w.WriteHeader(http.StatusNotFound)
 		json.NewEncoder(w).Encode(&Error{404, "Station not found"})
 		return
 	}
 
-	json.NewEncoder(w).Encode(stations)
+	json.NewEncoder(w).Encode(response)
 }

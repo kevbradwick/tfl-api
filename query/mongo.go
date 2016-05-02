@@ -36,12 +36,31 @@ func FindOne(query interface{}) (station lib.Station, err error) {
 	return station, err
 }
 
-func FindMany(query interface{}) (stations []lib.Station, err error) {
+// Count the number of documents in a query
+func Count(query interface{}) (count int, err error) {
+	s := session()
+	defer s.Close()
+	c := s.DB("tfldata").C("tube_stations")
+	count, err = c.Find(query).Count()
+	if err != nil {
+		log.Printf("Mongo query error %q", err)
+	}
+	return count, err
+}
+
+func FindMany(query interface{}, limit, offset int) (stations []lib.Station, err error) {
+	if limit < 0 || limit > 30 {
+		limit = 10
+	}
+	if offset < 0 {
+		offset = 0
+	}
 	s := session()
 	defer s.Close()
 	c := s.DB("tfldata").C("tube_stations")
 	stations = []lib.Station{}
-	err = c.Find(query).Limit(10).All(&stations)
+	err = c.Find(query).Limit(limit).All(&stations)
+
 	// some other error happened??
 	if err != nil && err != mgo.ErrNotFound {
 		log.Fatal("MongoDB query failed. %q", err)
