@@ -39,11 +39,11 @@ type Data struct {
 }
 
 func (s *Station) Longitude() string {
-	return strings.Split(s.Coordinates, ",")[0]
+	return strings.Split(strings.Trim(s.Coordinates, "\n\t"), ",")[0]
 }
 
 func (s *Station) Latitude() string {
-	return strings.Split(s.Coordinates, ",")[1]
+	return strings.Split(strings.Trim(s.Coordinates, "\n\t"), ",")[1]
 }
 
 type LatLon struct {

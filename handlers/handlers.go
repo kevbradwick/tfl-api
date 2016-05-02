@@ -6,6 +6,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/kevbradwick/tflapi/lib"
 	"github.com/kevbradwick/tflapi/query"
+	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 	"math"
 	"net/http"
@@ -116,9 +117,16 @@ func Search(w http.ResponseWriter, r *http.Request) {
 	stations, err := query.FindMany(q, limit, offset)
 	response := &ListResponse{count, nextPage, previousPage, stations}
 
-	if err != nil || float64(page) > totalPages {
-		w.WriteHeader(http.StatusNotFound)
-		json.NewEncoder(w).Encode(&Error{404, "No results found"})
+	// TODO move this higher up, outside of the handler function
+	if err != nil {
+		status := http.StatusInternalServerError
+		message := "Something bad just happened. Please try again later."
+		if err == mgo.ErrNotFound {
+			status = http.StatusNotFound
+			message = "No results found"
+		}
+		w.WriteHeader(status)
+		json.NewEncoder(w).Encode(&Error{status, message})
 		return
 	}
 

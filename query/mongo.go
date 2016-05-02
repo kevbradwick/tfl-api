@@ -27,12 +27,6 @@ func FindOne(query interface{}) (station lib.Station, err error) {
 	c := s.DB("tfldata").C("tube_stations")
 	station = lib.Station{}
 	err = c.Find(query).One(&station)
-
-	// some other error happened??
-	if err != nil && err != mgo.ErrNotFound {
-		log.Fatal("MongoDB query failed. %q", err)
-	}
-
 	return station, err
 }
 
@@ -42,12 +36,13 @@ func Count(query interface{}) (count int, err error) {
 	defer s.Close()
 	c := s.DB("tfldata").C("tube_stations")
 	count, err = c.Find(query).Count()
-	if err != nil {
-		log.Printf("Mongo query error %q", err)
-	}
 	return count, err
 }
 
+// FindMany
+//
+// Make a query for multiple documents. The limit by default is 10 but can be
+// adjusted to a maximum of 30. The default offset is 0.
 func FindMany(query interface{}, limit, offset int) (stations []lib.Station, err error) {
 	if limit < 0 || limit > 30 {
 		limit = 10
@@ -60,11 +55,5 @@ func FindMany(query interface{}, limit, offset int) (stations []lib.Station, err
 	c := s.DB("tfldata").C("tube_stations")
 	stations = []lib.Station{}
 	err = c.Find(query).Limit(limit).Skip(offset).All(&stations)
-
-	// some other error happened??
-	if err != nil && err != mgo.ErrNotFound {
-		log.Fatal("MongoDB query failed. %q", err)
-	}
-
 	return stations, err
 }

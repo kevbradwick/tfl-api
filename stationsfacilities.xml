@@ -123,7 +123,7 @@
 				<name>Acton Town Station</name>
 				<description>Acton Town Station, London Underground Ltd., Gunnersbury Lane, London, W3 8HN</description>
 				<Point>
-					<coordinates>-.280251203536110600,51.502749773000570000,0</coordinates>
+					<coordinates>-0.280251203536110600,51.502749773000570000,0</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
 			</Placemark>
@@ -198,7 +198,7 @@
 				<description>Aldgate Station, London Underground Ltd., Aldgate High St, London, EC3N 1AH</description>
 				<Point>
 					<coordinates>
-						-.075614184477749600,51.514271823083390000,0
+						-0.075614184477749600,51.514271823083390000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -442,7 +442,7 @@
 				<description>Aldgate East Station, London Underground Ltd., Whitechapel High St, London, E1 7PT</description>
 				<Point>
 					<coordinates>
-						-.072287119975365420,51.515233413796480000,0
+						-0.072287119975365420,51.515233413796480000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -525,7 +525,7 @@
 				<description>Alperton Station, London Underground Ltd., Ealing Rd, Wembley, Middlesex, HA0 4LL</description>
 				<Point>
 					<coordinates>
-						-.299486538678611470,51.540694766293470000,0
+						-0.299486538678611470,51.540694766293470000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -609,7 +609,7 @@
 				<description>Amersham Station, Stn Approach, Amersham, Bucks HP6 5AZ</description>
 				<Point>
 					<coordinates>
-						-.607478839102469000,51.674149710629730000,0
+						-0.607478839102469000,51.674149710629730000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -687,7 +687,7 @@
 				<description>Angel Station, London Underground Ltd., City Rd, London, EC1V 1NE</description>
 				<Point>
 					<coordinates>
-						-.105789913665305300,51.532498868904300000,0
+						-0.105789913665305300,51.532498868904300000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -777,7 +777,7 @@
 				<description>Archway Station, London Underground Ltd., Junction Rd, London, N19 5RQ</description>
 				<Point>
 					<coordinates>
-						-.135113518210335370,51.565426754533750000,0
+						-0.135113518210335370,51.565426754533750000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -875,7 +875,7 @@
 				<description>Arnos Grove Station, London Underground Ltd., Bowes Rd, London, N11 1AN</description>
 				<Point>
 					<coordinates>
-						-.133516309581780070,51.616340261056756000,0
+						-0.133516309581780070,51.616340261056756000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -953,7 +953,7 @@
 				<description>Arsenal Station, London Underground Ltd., Highbury Hill, London, N5 1LP</description>
 				<Point>
 					<coordinates>
-						-.105761988175557870,51.558498768776680000,0
+						-0.105761988175557870,51.558498768776680000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -1128,7 +1128,7 @@
 				<description>Baker Street Station Marylebone Rd, London, NW1</description>
 				<Point>
 					<coordinates>
-						-.156900356057780880,51.523061248142790000,0
+						-0.156900356057780880,51.523061248142790000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -1231,7 +1231,7 @@
 				<description>Balham Underground Station, London Underground Ltd., Balham High Rd, London, SW12 9BW</description>
 				<Point>
 					<coordinates>
-						-.153207552666472820,51.443328979635250000,0
+						-0.153207552666472820,51.443328979635250000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -2197,7 +2197,7 @@
 				<description>Bank/Monument Complex, London Underground Ltd., Princes St, London, EC3V 3LA</description>
 				<Point>
 					<coordinates>
-						-.088915809045260000,51.513302371519344000,0
+						-0.088915809045260000,51.513302371519344000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -2301,7 +2301,7 @@
 				<description>Barbican Station, London Underground Ltd., Aldersgate St, London, EC1A 4JA</description>
 				<Point>
 					<coordinates>
-						-.097711123216248310,51.520145725324900000,0
+						-0.097711123216248310,51.520145725324900000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -2533,7 +2533,7 @@
 				<description>Barons Court Station, London Underground Ltd., Pallister Rd, London, W14</description>
 				<Point>
 					<coordinates>
-						-.213606857361082370,51.490159942708935000,0
+						-0.213606857361082370,51.490159942708935000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -2616,7 +2616,7 @@
 				<description>Bayswater Station, London Underground Ltd., Queensway, London, W2 4QH</description>
 				<Point>
 					<coordinates>
-						-.188038262221618460,51.512233058741060000,0
+						-0.188038262221618460,51.512233058741060000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -2779,7 +2779,7 @@
 				<description>Belsize Park Station, London Underground Ltd., Haverstock Hill, London, NW3 2AL</description>
 				<Point>
 					<coordinates>
-						-.164232306333818050,51.550426627718240000,0
+						-0.164232306333818050,51.550426627718240000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -2857,7 +2857,7 @@
 				<description>Bermondsey Station, London Underground Ltd., 142 - 154 Jamaica Rd, London, SE16 4RX</description>
 				<Point>
 					<coordinates>
-						-.063651350918079250,51.497949119581570000,0
+						-0.063651350918079250,51.497949119581570000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -2971,7 +2971,7 @@
 				<description>Bethnal Green Underground Station, London Underground Ltd., Cambridge Heath Rd, London, E2 0ET</description>
 				<Point>
 					<coordinates>
-						-.055431117145884300,51.527195236069566000,0
+						-0.055431117145884300,51.527195236069566000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3214,7 +3214,7 @@
 				<description>Blackfriars Underground Station, London Underground Ltd., 179 Queen Victoria St, London, EC4V 4DD</description>
 				<Point>
 					<coordinates>
-						-.103606731219862620,51.511490522247490000,0
+						-0.103606731219862620,51.511490522247490000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3316,7 +3316,7 @@
 				<description>Blackhorse Road Underground Station, London Underground Ltd., Blackhorse Rd, London, E17 6ND</description>
 				<Point>
 					<coordinates>
-						-.040996340920370744,51.586951195438930000,0
+						-0.040996340920370744,51.586951195438930000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3503,7 +3503,7 @@
 				<description>Bond Street Station, London Underground Ltd., Oxford St, London, W1R 1FE</description>
 				<Point>
 					<coordinates>
-						-.149332354586202300,51.513804535388070000,0
+						-0.149332354586202300,51.513804535388070000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3588,7 +3588,7 @@
 				<description>Borough Station, London Underground Ltd., Borough High St, London, SE1 1JX</description>
 				<Point>
 					<coordinates>
-						-.093702664758373440,51.501193998928510000,0
+						-0.093702664758373440,51.501193998928510000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3677,7 +3677,7 @@
 				<description>Boston Manor Station, London Underground Ltd., Boston Manor Rd, Brentford, Middx, TW8 9LQ</description>
 				<Point>
 					<coordinates>
-						-.324763573796374050,51.495696382188164000,0
+						-0.324763573796374050,51.495696382188164000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3767,7 +3767,7 @@
 				<description>Bounds Green Station, London Underground Ltd., Bounds Green Rd, London, N11 2EU</description>
 				<Point>
 					<coordinates>
-						-.124218963208536690,51.607090556952755000,0
+						-0.124218963208536690,51.607090556952755000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3858,7 +3858,7 @@
 				<description>Bow Road Station, London Underground Ltd., Bow Road, London, E3 4DH</description>
 				<Point>
 					<coordinates>
-						-.024823746874528683,51.526800254826064000,0
+						-0.024823746874528683,51.526800254826064000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -3949,7 +3949,7 @@
 				<description>Brent Cross Station, London Underground Ltd., Highfield Avenue, London, NW11 9UA</description>
 				<Point>
 					<coordinates>
-						-.213455833755365300,51.576800471443870000,0
+						-0.213455833755365300,51.576800471443870000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4027,7 +4027,7 @@
 				<description>Brixton Underground Station, London Underground Ltd., Brixton Rd, London, SW9 8HE</description>
 				<Point>
 					<coordinates>
-						-.114635581578615600,51.462581333631725000,0
+						-0.114635581578615600,51.462581333631725000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4192,7 +4192,7 @@
 				<description>Burnt Oak Station, London Underground Ltd., Watling Avenue, Edgware, Middx, HA8 0LA</description>
 				<Point>
 					<coordinates>
-						-.264198758145630100,51.602681099702550000,0
+						-0.264198758145630100,51.602681099702550000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4270,7 +4270,7 @@
 				<description>Caledonian Road Underground Station, London Underground Ltd., Caledonian Rd, London, N7 9BA</description>
 				<Point>
 					<coordinates>
-						-.118312333133271940,51.548421318403776000,0
+						-0.118312333133271940,51.548421318403776000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4372,7 +4372,7 @@
 				<description>Camden Town Station, London Underground Ltd., Camden High St, London, NW1 8NH</description>
 				<Point>
 					<coordinates>
-						-.142726148730286300,51.539403522631090000,0
+						-0.142726148730286300,51.539403522631090000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4495,7 +4495,7 @@
 				<description>Canada Water Station, London Underground Ltd., Deal Porter Way, Surrey Quays, London, SE16</description>
 				<Point>
 					<coordinates>
-						-.049705986794378270,51.497888681995114000,0
+						-0.049705986794378270,51.497888681995114000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4638,7 +4638,7 @@
 				<description>Canary Wharf Station, London Underground Ltd., Heron Quays Road, Canary Wharf, London, E14 4HJ</description>
 				<Point>
 					<coordinates>
-						-.019431816253263262,51.503550485647594000,0
+						-0.019431816253263262,51.503550485647594000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4854,7 +4854,7 @@
 				<description>Cannon Street Underground Station, London Underground Ltd., Cannon St, London, EC4N 6AP</description>
 				<Point>
 					<coordinates>
-						-.090694850680980680,51.511433722337300000,0
+						-0.090694850680980680,51.511433722337300000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -4921,7 +4921,7 @@
 				<description>Canons Park Station, London Underground Ltd., Whitchurch Lane, Edgware, Middx, HA8 6RN</description>
 				<Point>
 					<coordinates>
-						-.294653740878426550,51.607759515215320000,0
+						-0.294653740878426550,51.607759515215320000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5021,7 +5021,7 @@
 				<description>Chalfont &amp; Latimer Station, London Underground Ltd., Station Approach, Little Chalfont, Amersham, Bucks, HP7 9PR</description>
 				<Point>
 					<coordinates>
-						-.560534956448776200,51.668025473926090000,0
+						-0.560534956448776200,51.668025473926090000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5099,7 +5099,7 @@
 				<description>Chalk Farm Station, London Underground Ltd., Adelaide Rd, London, NW3 2BP</description>
 				<Point>
 					<coordinates>
-						-.153728009451251480,51.544083102422630000,0
+						-0.153728009451251480,51.544083102422630000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5213,7 +5213,7 @@
 				<description>Chancery Lane Station, London Underground Ltd., High Holborn, London, WC1V 6DR</description>
 				<Point>
 					<coordinates>
-						-.111677427383970640,51.518123230614440000,0
+						-0.111677427383970640,51.518123230614440000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5561,7 +5561,7 @@
 				<description>Charing Cross Underground Station, London Underground Ltd., Trafalgar Square, London, WC2N 5DR</description>
 				<Point>
 					<coordinates>
-						-.124754686624366030,51.508593207603190000,0
+						-0.124754686624366030,51.508593207603190000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5638,7 +5638,7 @@
 				<description>Chesham Station, London Underground Ltd., Station Approach, Chesham, Bucks, HP5 1DH</description>
 				<Point>
 					<coordinates>
-						-.611219246324909900,51.705030454829610000,0
+						-0.611219246324909900,51.705030454829610000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5779,7 +5779,7 @@
 				<description>Chiswick Park Station, London Underground Ltd., Bollo Lane, London, W4 5NE</description>
 				<Point>
 					<coordinates>
-						-.267746873913726140,51.494300591745144000,0
+						-0.267746873913726140,51.494300591745144000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5887,7 +5887,7 @@
 				<description>Chorleywood Station, London Underground Ltd., Station Approach, Chorleywood, Rickmansworth, Herts WD3 5ND</description>
 				<Point>
 					<coordinates>
-						-.518365989763054100,51.654217860774500000,0
+						-0.518365989763054100,51.654217860774500000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -5989,7 +5989,7 @@
 				<description>Clapham Common Station, London Underground Ltd., The Pavement, London, SW4 7AJ</description>
 				<Point>
 					<coordinates>
-						-.138311459464252400,51.461727933283946000,0
+						-0.138311459464252400,51.461727933283946000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6067,7 +6067,7 @@
 				<description>Clapham North Station, London Underground Ltd., Clapham High St, London, SW4 7TS</description>
 				<Point>
 					<coordinates>
-						-.129531053727598040,51.464843732027760000,0
+						-0.129531053727598040,51.464843732027760000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6145,7 +6145,7 @@
 				<description>Clapham South Station, London Underground Ltd., Balham Hill, London, SW12 9DU</description>
 				<Point>
 					<coordinates>
-						-.147982098639174410,51.452599834714476000,0
+						-0.147982098639174410,51.452599834714476000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6251,7 +6251,7 @@
 				<description>Cockfosters Station, London Underground Ltd., Cockfosters Rd, Barnet, Herts, EN4 0DZ</description>
 				<Point>
 					<coordinates>
-						-.149614715155877680,51.651687534574954000,0
+						-0.149614715155877680,51.651687534574954000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6330,7 +6330,7 @@
 				<description>Colindale Station, London Underground Ltd., Colindale Avenue, London, NW9 5HR</description>
 				<Point>
 					<coordinates>
-						-.250142587760251700,51.595286518799250000,0
+						-0.250142587760251700,51.595286518799250000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6409,7 +6409,7 @@
 				<description>Colliers Wood Station, London Underground Ltd., Colliers Wood High St, London, SW19 2HR</description>
 				<Point>
 					<coordinates>
-						-.177700936628786360,51.418071885122640000,0
+						-0.177700936628786360,51.418071885122640000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6487,7 +6487,7 @@
 				<description>Covent Garden Station, London Underground Ltd., Long Acre, London, WC2E 9JT</description>
 				<Point>
 					<coordinates>
-						-.124159260603112690,51.512909586141590000,0
+						-0.124159260603112690,51.512909586141590000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6570,7 +6570,7 @@
 				<description>Croxley Station, London Underground Ltd., Watford Road, Rickmansworth, Herts, WD3 3DY</description>
 				<Point>
 					<coordinates>
-						-.441710992609101700,51.647046338116360000,0
+						-0.441710992609101700,51.647046338116360000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6908,7 +6908,7 @@
 				<description>Dollis Hill Station, London Underground Ltd., Hamilton Rd, London, NW10 5NB</description>
 				<Point>
 					<coordinates>
-						-.238797558508156870,51.551903559056100000,0
+						-0.238797558508156870,51.551903559056100000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -6981,7 +6981,7 @@
 				<description>Ealing Broadway Station, The Broadway, London, W5 2NU</description>
 				<Point>
 					<coordinates>
-						-.301500096369187100,51.514913033739160000,0
+						-0.301500096369187100,51.514913033739160000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7065,7 +7065,7 @@
 				<description>Ealing Common Station, London Underground Ltd., Uxbridge Rd, London, W5 3LD</description>
 				<Point>
 					<coordinates>
-						-.288260381056999100,51.510124738537850000,0
+						-0.288260381056999100,51.510124738537850000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7230,7 +7230,7 @@
 				<description>Earl's Court Station, London Underground Ltd., Earl's Court Rd, London, SW5 9QA</description>
 				<Point>
 					<coordinates>
-						-.193545854058733800,51.491803907898900000,0
+						-0.193545854058733800,51.491803907898900000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7314,7 +7314,7 @@
 				<description>East Acton Station, London Underground Ltd., Erconwald St, London, W12 0BP</description>
 				<Point>
 					<coordinates>
-						-.247513203550207700,51.516582199054170000,0
+						-0.247513203550207700,51.516582199054170000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7404,7 +7404,7 @@
 				<description>East Finchley Station, London Underground Ltd., High Rd, London, N2 0NW</description>
 				<Point>
 					<coordinates>
-						-.164738305623223720,51.587271719132026000,0
+						-0.164738305623223720,51.587271719132026000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7572,7 +7572,7 @@
 				<description>East Putney Station, Upper Richmond Rd, London, SW15</description>
 				<Point>
 					<coordinates>
-						-.211003174222271470,51.458804746350000000,0
+						-0.211003174222271470,51.458804746350000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7656,7 +7656,7 @@
 				<description>Eastcote Station, London Underground Ltd., Field End Rd, Ruislip, Middx, HA5 1QZ</description>
 				<Point>
 					<coordinates>
-						-.396844627186990200,51.576493044501650000,0
+						-0.396844627186990200,51.576493044501650000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7746,7 +7746,7 @@
 				<description>Edgware Station, London Underground Ltd., Station Rd, Edgware, Middx, HA8 7AW</description>
 				<Point>
 					<coordinates>
-						-.274976006045290200,51.613623079849460000,0
+						-0.274976006045290200,51.613623079849460000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -7894,7 +7894,7 @@
 				<description>Elephant &amp; Castle Underground Station, London Underground Ltd., London Rd, London, SE1 6LW</description>
 				<Point>
 					<coordinates>
-						-.100729603883341970,51.495777047270740000,0
+						-0.100729603883341970,51.495777047270740000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -8163,7 +8163,7 @@
 				<description>Embankment Station, London Underground Ltd., Villiers St, London, WC2N 6NS</description>
 				<Point>
 					<coordinates>
-						-.122360215814178660,51.507241796748396000,0
+						-0.122360215814178660,51.507241796748396000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -8392,7 +8392,7 @@
 				<description>Euston Underground Station, London Underground Ltd., Eversholt St, London, NW1 2DU</description>
 				<Point>
 					<coordinates>
-						-.133289718799315530,51.528596260899460000,0
+						-0.133289718799315530,51.528596260899460000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -8504,7 +8504,7 @@
 				<description>Euston Square Station, London Underground Ltd., Euston Rd, London, NW1 2BN</description>
 				<Point>
 					<coordinates>
-						-.135836140694320340,51.525561006016105000,0
+						-0.135836140694320340,51.525561006016105000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -8694,7 +8694,7 @@
 				<description>Farringdon Station, London Underground Ltd., Cowcross St, London, EC1M 6BY</description>
 				<Point>
 					<coordinates>
-						-.105065254236880330,51.520444754930790000,0
+						-0.105065254236880330,51.520444754930790000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -8797,7 +8797,7 @@
 				<description>Finchley Central Station, London Underground Ltd., Regents Park Road, London, N3 2RY</description>
 				<Point>
 					<coordinates>
-						-.192447107072110800,51.600976420785250000,0
+						-0.192447107072110800,51.600976420785250000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -8885,7 +8885,7 @@
 				<description>Finchley Road Underground Station, London Underground Ltd., Finchley Road, London, NW3 6OP</description>
 				<Point>
 					<coordinates>
-						-.180494175915812260,51.547064834336794000,0
+						-0.180494175915812260,51.547064834336794000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -9032,7 +9032,7 @@
 				<description>Finsbury Park Underground Station, London Underground Ltd., Wells Terrace, London, N4 3JU</description>
 				<Point>
 					<coordinates>
-						-.106512100282158470,51.564401648484590000,0
+						-0.106512100282158470,51.564401648484590000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -9122,7 +9122,7 @@
 				<description>Fulham Broadway Station, London Underground Ltd., Fulham Broadway, London, SW6 1BY</description>
 				<Point>
 					<coordinates>
-						-.194956844603215860,51.480529784298170000,0
+						-0.194956844603215860,51.480529784298170000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -9380,7 +9380,7 @@
 				<description>Gloucester Road Station, London Underground Ltd., Gloucester Rd, London, SW7 4SF</description>
 				<Point>
 					<coordinates>
-						-.182989526482896930,51.494239783916480000,0
+						-0.182989526482896930,51.494239783916480000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -9458,7 +9458,7 @@
 				<description>Golders Green Station, London Underground Ltd., North End Rd, London, NW11 7RN</description>
 				<Point>
 					<coordinates>
-						-.193993261252232000,51.572221393232800000,0
+						-0.193993261252232000,51.572221393232800000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -9561,7 +9561,7 @@
 				<description>Goldhawk Road Station, London Underground Ltd., Goldhawk Rd, London, W12 8EG</description>
 				<Point>
 					<coordinates>
-						-.226748329203583370,51.501952197301270000,0
+						-0.226748329203583370,51.501952197301270000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -9640,7 +9640,7 @@
 				<description>Goodge Street Station, London Underground Ltd., 75 Tottenham Court Rd, London, W1P 9PA</description>
 				<Point>
 					<coordinates>
-						-.134662152092394320,51.520424996045500000,0
+						-0.134662152092394320,51.520424996045500000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -9820,7 +9820,7 @@
 				<description>Great Portland Street Station, London Underground Ltd., Euston Rd, London, NW1</description>
 				<Point>
 					<coordinates>
-						-.143956086447368930,51.523720314628890000,0
+						-0.143956086447368930,51.523720314628890000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10028,7 +10028,7 @@
 				<description>Green Park Station, London Underground Ltd., Piccadilly, London, W1V 9HG</description>
 				<Point>
 					<coordinates>
-						-.142927422207874380,51.506850108502306000,0
+						-0.142927422207874380,51.506850108502306000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10106,7 +10106,7 @@
 				<description>Greenford Station, London Underground Ltd., Oldfield Lane, Greenford, Middx, UB6 8PX</description>
 				<Point>
 					<coordinates>
-						-.346444146567460000,51.542302026759124000,0
+						-0.346444146567460000,51.542302026759124000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10279,7 +10279,7 @@
 				<description>Hampstead Station, London Underground Ltd., Hampstead High St, London, NW3 1QG</description>
 				<Point>
 					<coordinates>
-						-.178219762924764630,51.556688476264430000,0
+						-0.178219762924764630,51.556688476264430000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10397,7 +10397,7 @@
 				<description>Hanger Lane Station, London Underground Ltd., Hanger Lane, London, W5 1DL</description>
 				<Point>
 					<coordinates>
-						-.293007522620696200,51.530006403588040000,0
+						-0.293007522620696200,51.530006403588040000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10499,7 +10499,7 @@
 				<description>Hatton Cross Station, London Underground Ltd., Great South West Rd, Feltham, Middx,  </description>
 				<Point>
 					<coordinates>
-						-.423409349454662700,51.466614173462760000,0
+						-0.423409349454662700,51.466614173462760000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10577,7 +10577,7 @@
 				<description>Heathrow T4 Station, London Underground Ltd., Hthrw Airport complex, Trmnl 4, Hounslow, Middx</description>
 				<Point>
 					<coordinates>
-						-.446058766977937300,51.458553104092005000,0
+						-0.446058766977937300,51.458553104092005000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10655,7 +10655,7 @@
 				<description>Hendon Central Station, London Underground Ltd., Queens Rd, London, NW4 3AS</description>
 				<Point>
 					<coordinates>
-						-.226496207803293200,51.583293830072000000,0
+						-0.226496207803293200,51.583293830072000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10734,7 +10734,7 @@
 				<description>High Barnet Station, London Underground Ltd., Barnet Hill, Barnet, Herts, EN5 5RP</description>
 				<Point>
 					<coordinates>
-						-.194751021947520400,51.650601170588565000,0
+						-0.194751021947520400,51.650601170588565000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10817,7 +10817,7 @@
 				<description>High Street Kensington Station, London Underground Ltd., Kensington High St, London, W8 5SA</description>
 				<Point>
 					<coordinates>
-						-.192503135590810750,51.500673420263205000,0
+						-0.192503135590810750,51.500673420263205000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -10911,7 +10911,7 @@
 				<description>Highbury &amp; Islington Underground Station, London Underground Ltd., Holloway Rd, London, N5 1RA</description>
 				<Point>
 					<coordinates>
-						-.103964238784979300,51.546229491737870000,0
+						-0.103964238784979300,51.546229491737870000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11014,7 +11014,7 @@
 				<description>Highgate Station, London Underground Ltd., Archway Rd, London, N6</description>
 				<Point>
 					<coordinates>
-						-.146638422561128380,51.577597829618790000,0
+						-0.146638422561128380,51.577597829618790000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11117,7 +11117,7 @@
 				<description>Hillingdon Station, London Underground Ltd., Long Lane, Hillingdon, Uxbridge, Middlesex, UB10 9NR</description>
 				<Point>
 					<coordinates>
-						-.449926295661858930,51.553716844570935000,0
+						-0.449926295661858930,51.553716844570935000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11256,7 +11256,7 @@
 				<description>Holborn Station, London Underground Ltd., Kingsway, London, WC2B 6AA</description>
 				<Point>
 					<coordinates>
-						-.120008849244825100,51.517438783075970000,0
+						-0.120008849244825100,51.517438783075970000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11346,7 +11346,7 @@
 				<description>Holland Park Station, London Underground Ltd., Holland Park Avenue, London, W11 3RB</description>
 				<Point>
 					<coordinates>
-						-.205728672749766300,51.507334043150680000,0
+						-0.205728672749766300,51.507334043150680000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11424,7 +11424,7 @@
 				<description>Holloway Road Station, London Underground Ltd., Holloway Rd, London, N7 8HS</description>
 				<Point>
 					<coordinates>
-						-.112925632539152260,51.552750537878600000,0
+						-0.112925632539152260,51.552750537878600000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11575,7 +11575,7 @@
 				<description>Hounslow Central Station, London Underground Ltd., Lampton Rd, Hounslow, Middx, TW3 1JG</description>
 				<Point>
 					<coordinates>
-						-.366922420319065300,51.471083300365436000,0
+						-0.366922420319065300,51.471083300365436000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11665,7 +11665,7 @@
 				<description>Hounslow East Station, London Underground Ltd., Kingsley Rd, Hounslow, Middx, TW3 4AB</description>
 				<Point>
 					<coordinates>
-						-.356695318244920060,51.473170615833226000,0
+						-0.356695318244920060,51.473170615833226000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11743,7 +11743,7 @@
 				<description>Hounslow West Station, London Underground Ltd., Bath Rd, Hounslow, Middx, TW3 3DH</description>
 				<Point>
 					<coordinates>
-						-.385731868407531600,51.473034798965720000,0
+						-0.385731868407531600,51.473034798965720000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11869,7 +11869,7 @@
 				<description>Hyde Park Corner Station, London Underground Ltd., Knightsbridge, London, SW1X 7LY</description>
 				<Point>
 					<coordinates>
-						-.152748811981766980,51.502760411212570000,0
+						-0.152748811981766980,51.502760411212570000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -11979,7 +11979,7 @@
 				<description>Ickenham Station, London Underground Ltd., Glebe Avenue, Uxbridge, Middx, UB10 8PD</description>
 				<Point>
 					<coordinates>
-						-.442026555689012170,51.561984742559240000,0
+						-0.442026555689012170,51.561984742559240000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12064,7 +12064,7 @@
 				<description>Kennington Station, London Underground Ltd., Kennington Park Rd, London, SE11 4QJ</description>
 				<Point>
 					<coordinates>
-						-.105485152526283220,51.488119530611540000,0
+						-0.105485152526283220,51.488119530611540000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12165,7 +12165,7 @@
 				<description>Kentish Town Underground Station, London Underground Ltd., Kentish Town Rd, London, NW5 2AA</description>
 				<Point>
 					<coordinates>
-						-.140464192953272140,51.550303762237870000,0
+						-0.140464192953272140,51.550303762237870000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12247,7 +12247,7 @@
 				<description>Kilburn Station, London Underground Ltd., Shootup Hill, London, NW6 7QL</description>
 				<Point>
 					<coordinates>
-						-.204633341254655960,51.546879502456840000,0
+						-0.204633341254655960,51.546879502456840000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12326,7 +12326,7 @@
 				<description>Kilburn Park Station, London Underground Ltd., Cambridge Avenue, London, NW6 5AD</description>
 				<Point>
 					<coordinates>
-						-.193965947368527200,51.535069084357000000,0
+						-0.193965947368527200,51.535069084357000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12409,7 +12409,7 @@
 				<description>Kingsbury Station, London Underground Ltd., Kingsbury Rd, London, NW9 9EG</description>
 				<Point>
 					<coordinates>
-						-.278799057434066500,51.584756866190325000,0
+						-0.278799057434066500,51.584756866190325000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12544,7 +12544,7 @@
 				<description>Knightsbridge Station, London Underground Ltd., Sloane St, London, SW1</description>
 				<Point>
 					<coordinates>
-						-.160507091328832150,51.501551433201136000,0
+						-0.160507091328832150,51.501551433201136000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12628,7 +12628,7 @@
 				<description>Ladbroke Grove Station, London Underground Ltd., Ladbroke Grove, London, W10 6HJ</description>
 				<Point>
 					<coordinates>
-						-.210861917848587150,51.517188449881736000,0
+						-0.210861917848587150,51.517188449881736000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12706,7 +12706,7 @@
 				<description>Lambeth North Station, London Underground Ltd., 110 Westminster Bridge Rd, London, SE1 7XG</description>
 				<Point>
 					<coordinates>
-						-.111760270277701970,51.499058148698570000,0
+						-0.111760270277701970,51.499058148698570000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12784,7 +12784,7 @@
 				<description>Lancaster Gate Station, London Underground Ltd., Bayswater Rd, London, W2</description>
 				<Point>
 					<coordinates>
-						-.175428659257816700,51.511821534588610000,0
+						-0.175428659257816700,51.511821534588610000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -12863,7 +12863,7 @@
 				<description>Latimer Road Station, London Underground Ltd., Bramley Rd, London, W10 6SZ</description>
 				<Point>
 					<coordinates>
-						-.217779301792146050,51.513543593897175000,0
+						-0.217779301792146050,51.513543593897175000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -13010,7 +13010,7 @@
 				<description>Leicester Square Station, London Underground Ltd., Cranbourn St, London, WC2H 0AP</description>
 				<Point>
 					<coordinates>
-						-.128235532172760460,51.511221028367200000,0
+						-0.128235532172760460,51.511221028367200000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -13101,7 +13101,7 @@
 				<description>Leyton Underground Station, London Underground Ltd., High Rd, Leyton, London, E10 5PS</description>
 				<Point>
 					<coordinates>
-						-.005619879781309080,51.556432927054910000,0
+						-0.005619879781309080,51.556432927054910000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -13488,7 +13488,7 @@
 				<description>Liverpool Street Underground Station Central, London Underground Ltd., Liverpool Street, London, EC2M 7PP</description>
 				<Point>
 					<coordinates>
-						-.082965709456943840,51.517351230751740000,0
+						-0.082965709456943840,51.517351230751740000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -13712,7 +13712,7 @@
 				<description>London Bridge Underground Station, London Underground Ltd., 21 Duke St Hill, London, SE1 2SW</description>
 				<Point>
 					<coordinates>
-						-.086922404191941930,51.505499353249796000,0
+						-0.086922404191941930,51.505499353249796000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -13869,7 +13869,7 @@
 				<description>Maida Vale Station, London Underground Ltd., Elgin Avenue, London, W9 1JS</description>
 				<Point>
 					<coordinates>
-						-.185625902229911570,51.529760016810314000,0
+						-0.185625902229911570,51.529760016810314000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -14019,7 +14019,7 @@
 				<description>Manor House Station, London Underground Ltd., Green Lanes, London, N4 1BZ</description>
 				<Point>
 					<coordinates>
-						-.095712466704881360,51.570756005284366000,0
+						-0.095712466704881360,51.570756005284366000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -14206,7 +14206,7 @@
 				<description>Mansion House Station, London Underground Ltd., 38 Cannon St, London, EC4N 6JD</description>
 				<Point>
 					<coordinates>
-						-.094187135312932570,51.512021200956030000,0
+						-0.094187135312932570,51.512021200956030000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -14368,7 +14368,7 @@
 				<description>Marble Arch Station, London Underground Ltd., Oxford St, London, W1R 1DD</description>
 				<Point>
 					<coordinates>
-						-.158438046626587060,51.513543293181170000,0
+						-0.158438046626587060,51.513543293181170000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -14446,7 +14446,7 @@
 				<description>Marylebone Underground Station, London Underground Ltd., Harewood Row, London, NW1 6JP</description>
 				<Point>
 					<coordinates>
-						-.163104487142123720,51.522223341970424000,0
+						-0.163104487142123720,51.522223341970424000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -14541,7 +14541,7 @@
 				<description>Mile End Station, London Underground Ltd., Mile End Rd, London, E3 4DH</description>
 				<Point>
 					<coordinates>
-						-.033404170381106150,51.525091871834480000,0
+						-0.033404170381106150,51.525091871834480000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -14608,7 +14608,7 @@
 				<description>Mill Hill East Station, London Underground Ltd., Bittacy Hill, London, NW7 1BS</description>
 				<Point>
 					<coordinates>
-						-.209894419946043500,51.608258895239280000,0
+						-0.209894419946043500,51.608258895239280000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -15526,7 +15526,7 @@
 				<description>Monument Station, London Underground Ltd., King William St, London, EC4R 9AA</description>
 				<Point>
 					<coordinates>
-						-.088942732741562510,51.513347819184280000,0
+						-0.088942732741562510,51.513347819184280000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -15609,7 +15609,7 @@
 				<description>Moor Park Station, London Underground Ltd., Sandy Lodge Lane, Rickmansworth, Herts, HA6 2JQ.</description>
 				<Point>
 					<coordinates>
-						-.432666848603920740,51.629731090477620000,0
+						-0.432666848603920740,51.629731090477620000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -15820,7 +15820,7 @@
 				<description>Moorgate Station, London Underground Ltd., Moorfields, London, EC2Y 9AE</description>
 				<Point>
 					<coordinates>
-						-.089006315013091150,51.518367249884620000,0
+						-0.089006315013091150,51.518367249884620000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -15898,7 +15898,7 @@
 				<description>Morden Underground Station, London Underground Ltd., London Rd, Morden, Surrey, SM4 5AZ</description>
 				<Point>
 					<coordinates>
-						-.194790700834515200,51.402336940766870000,0
+						-0.194790700834515200,51.402336940766870000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -15988,7 +15988,7 @@
 				<description>Mornington Crescent Station, London Underground Ltd., Eversholt St, London, NW1 2JA</description>
 				<Point>
 					<coordinates>
-						-.138842529989899570,51.534206610602570000,0
+						-0.138842529989899570,51.534206610602570000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16071,7 +16071,7 @@
 				<description>Neasden Station, London Underground Ltd., Neasden Lane, London, NW10 1PH</description>
 				<Point>
 					<coordinates>
-						-.249782872822431580,51.553965717461770000,0
+						-0.249782872822431580,51.553965717461770000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16252,7 +16252,7 @@
 				<description>North Acton Station, London Underground Ltd., Victoria Rd, London, W3 6UP</description>
 				<Point>
 					<coordinates>
-						-.259737385737795140,51.523365556364130000,0
+						-0.259737385737795140,51.523365556364130000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16325,7 +16325,7 @@
 				<description>North Ealing Station, London Underground Ltd., Station Road, London, W5 3AF</description>
 				<Point>
 					<coordinates>
-						-.289004979762560500,51.517555160358675000,0
+						-0.289004979762560500,51.517555160358675000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16525,7 +16525,7 @@
 				<description>North Harrow Station, London Underground Ltd., Station Rd, North Harrow, Middx, HA2 7SR</description>
 				<Point>
 					<coordinates>
-						-.362223573258194200,51.584791846729885000,0
+						-0.362223573258194200,51.584791846729885000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16603,7 +16603,7 @@
 				<description>Northfields Station, London Underground Ltd., Northfield Avenue, London, W13 9QU</description>
 				<Point>
 					<coordinates>
-						-.314156832664969850,51.499276482193580000,0
+						-0.314156832664969850,51.499276482193580000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16681,7 +16681,7 @@
 				<description>Northolt Underground Station, London Underground Ltd., Mandeville Rd, Northolt, Middx, UB5 4AA</description>
 				<Point>
 					<coordinates>
-						-.368459834282661160,51.548150439002740000,0
+						-0.368459834282661160,51.548150439002740000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16771,7 +16771,7 @@
 				<description>Northwick Park Station, London Underground Ltd., Northwick Avenue, Harrow, Middx, HA3 0AT</description>
 				<Point>
 					<coordinates>
-						-.318206356876206400,51.578592841487520000,0
+						-0.318206356876206400,51.578592841487520000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16853,7 +16853,7 @@
 				<description>Northwood Station, London Underground Ltd., Station Approach, Green Lane, Northwood, Middx, HA6 2XL</description>
 				<Point>
 					<coordinates>
-						-.423860793851574430,51.611159228903716000,0
+						-0.423860793851574430,51.611159228903716000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -16931,7 +16931,7 @@
 				<description>Northwood Hills Station, London Underground Ltd., Joel St, Northwood, Middx, HA6 1NZ</description>
 				<Point>
 					<coordinates>
-						-.409298630674160700,51.600494576500000000,0
+						-0.409298630674160700,51.600494576500000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -17079,7 +17079,7 @@
 				<description>Notting Hill Gate Station, London Underground Ltd., Notting Hill Gate, London, W11 3HT</description>
 				<Point>
 					<coordinates>
-						-.196537685407762500,51.509063533643740000,0
+						-0.196537685407762500,51.509063533643740000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -17158,7 +17158,7 @@
 				<description>Oakwood Station, London Underground Ltd., Bramley Rd, London, N14 4UT</description>
 				<Point>
 					<coordinates>
-						-.131841721300937210,51.647583649194110000,0
+						-0.131841721300937210,51.647583649194110000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -17353,7 +17353,7 @@
 				<description>Old Street Station, London Underground Ltd., Old St, London, EC1V 9NR</description>
 				<Point>
 					<coordinates>
-						-.087549731436462540,51.525601323369810000,0
+						-0.087549731436462540,51.525601323369810000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -17456,7 +17456,7 @@
 				<description>Osterley Station, London Underground Ltd., Great West Rd, Isleworth, Middx, TW7 4PU</description>
 				<Point>
 					<coordinates>
-						-.351994404645611300,51.480928804588714000,0
+						-0.351994404645611300,51.480928804588714000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -17540,7 +17540,7 @@
 				<description>Oval Station, London Underground Ltd., 318 Kennington Park Rd, London, SE11 4PP</description>
 				<Point>
 					<coordinates>
-						-.112893408798067650,51.482105452338025000,0
+						-0.112893408798067650,51.482105452338025000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -17776,7 +17776,7 @@
 				<description>Oxford Circus Station, London Underground Ltd., Oxford St, London, W1R 1AB</description>
 				<Point>
 					<coordinates>
-						-.141768983668966370,51.515123799037090000,0
+						-0.141768983668966370,51.515123799037090000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -18083,7 +18083,7 @@
 				<description>Paddington Underground Stations, London Underground Ltd., Praed St, London, W2</description>
 				<Point>
 					<coordinates>
-						-.175390006010324200,51.515310415793490000,0
+						-0.175390006010324200,51.515310415793490000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -18159,7 +18159,7 @@
 				<description>Park Royal Station, London Underground Ltd., Western Avenue, London, W5 3EL</description>
 				<Point>
 					<coordinates>
-						-.284228015904849400,51.526901379245410000,0
+						-0.284228015904849400,51.526901379245410000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -18261,7 +18261,7 @@
 				<description>Parsons Green Station, London Underground Ltd., Parsons Green Lane, London, SW6 4HJ</description>
 				<Point>
 					<coordinates>
-						-.201234656583119650,51.475095330474790000,0
+						-0.201234656583119650,51.475095330474790000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -18351,7 +18351,7 @@
 				<description>Perivale Station, London Underground Ltd., Horsenden Lane, Greenford, Middx</description>
 				<Point>
 					<coordinates>
-						-.323852038492346400,51.536594089926690000,0
+						-0.323852038492346400,51.536594089926690000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -18642,7 +18642,7 @@
 				<description>Piccadilly Circus Station, London Underground Ltd., Piccadilly Circus, London, W1V 9LB</description>
 				<Point>
 					<coordinates>
-						-.134006365558421630,51.510026995270750000,0
+						-0.134006365558421630,51.510026995270750000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -18744,7 +18744,7 @@
 				<description>Pimlico Station, London Underground Ltd., Bessborough St, London, SW1V 2JA</description>
 				<Point>
 					<coordinates>
-						-.133748665287791170,51.489193760110520000,0
+						-0.133748665287791170,51.489193760110520000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -18850,7 +18850,7 @@
 				<description>Pinner Station, London Underground Ltd., Station Approach, Pinner, Middx, HA5 5LZ</description>
 				<Point>
 					<coordinates>
-						-.380919804150348800,51.592857630090860000,0
+						-0.380919804150348800,51.592857630090860000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19019,7 +19019,7 @@
 				<description>Preston Road Station, London Underground Ltd., Preston Rd, Wembley, Middx, HA3 0PS</description>
 				<Point>
 					<coordinates>
-						-.295256300158967800,51.572037991815020000,0
+						-0.295256300158967800,51.572037991815020000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19103,7 +19103,7 @@
 				<description>Putney Bridge Station, London Underground Ltd., Station Approach, London, SW6 3UH</description>
 				<Point>
 					<coordinates>
-						-.208976678487921420,51.467902222271880000,0
+						-0.208976678487921420,51.467902222271880000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19186,7 +19186,7 @@
 				<description>Queensbury Station, London Underground Ltd., Cumberland Rd, Harrow, Middx, HA8 5NP</description>
 				<Point>
 					<coordinates>
-						-.285785681643207800,51.594347148072560000,0
+						-0.285785681643207800,51.594347148072560000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19265,7 +19265,7 @@
 				<description>Queensway Station, London Underground Ltd., Bayswater Rd, London, W2 4SS</description>
 				<Point>
 					<coordinates>
-						-.187434461364574480,51.510380051624610000,0
+						-0.187434461364574480,51.510380051624610000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19367,7 +19367,7 @@
 				<description>Ravenscourt Park Station, London Underground Ltd., Ravenscourt Rd, London, W6 0UG</description>
 				<Point>
 					<coordinates>
-						-.236258353945599400,51.494136531497860000,0
+						-0.236258353945599400,51.494136531497860000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19450,7 +19450,7 @@
 				<description>Rayners Lane Station, London Underground Ltd., Alexandra Avenue, Harrow, Middx</description>
 				<Point>
 					<coordinates>
-						-.371005563517764870,51.574976703881340000,0
+						-0.371005563517764870,51.574976703881340000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19612,7 +19612,7 @@
 				<description>Regent's Park Station, London Underground Ltd., Marylebone Rd, London, NW1 5HA</description>
 				<Point>
 					<coordinates>
-						-.146862634752862040,51.523505503468370000,0
+						-0.146862634752862040,51.523505503468370000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19704,7 +19704,7 @@
 				<description>Rickmansworth Station, London Underground Ltd., Station Approach, Rickmansworth, Herts, WD3 1QY</description>
 				<Point>
 					<coordinates>
-						-.473712107018385900,51.640272706988570000,0
+						-0.473712107018385900,51.640272706988570000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19855,7 +19855,7 @@
 				<description>Rotherhithe Station, London Underground Ltd., Brunel Rd, London, SE16 4LF</description>
 				<Point>
 					<coordinates>
-						-.052180998321318894,51.501005694266450000,0
+						-0.052180998321318894,51.501005694266450000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -19922,7 +19922,7 @@
 				<description>Royal Oak Station, London Underground Ltd., Lord Hills Bridge, London, W2 6ET</description>
 				<Point>
 					<coordinates>
-						-.188230043028310500,51.519017120333290000,0
+						-0.188230043028310500,51.519017120333290000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20011,7 +20011,7 @@
 				<description>Ruislip Station, London Underground Ltd., Station Approach, Ruislip, Middx, HA4 8LD</description>
 				<Point>
 					<coordinates>
-						-.421455074014979600,51.571449113222800000,0
+						-0.421455074014979600,51.571449113222800000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20095,7 +20095,7 @@
 				<description>Ruislip Gardens Station, London Underground Ltd., West End Rd, Ruislip, Middx, HA4 6NF</description>
 				<Point>
 					<coordinates>
-						-.411039284928411100,51.560588503076744000,0
+						-0.411039284928411100,51.560588503076744000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20183,7 +20183,7 @@
 				<description>Ruislip Manor Station, London Underground Ltd., Victoria Rd, Ruislip, Middx, HA4 9AA</description>
 				<Point>
 					<coordinates>
-						-.412345792093259500,51.573187677867050000,0
+						-0.412345792093259500,51.573187677867050000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20270,7 +20270,7 @@
 				<description>Russell Square Station, London Underground Ltd., Bernard St, London, WC1N 1LG</description>
 				<Point>
 					<coordinates>
-						-.124310055647967780,51.522912845083240000,0
+						-0.124310055647967780,51.522912845083240000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20473,7 +20473,7 @@
 				<description>Seven Sisters Underground Station, London Underground Ltd., Seven Sisters Rd, London</description>
 				<Point>
 					<coordinates>
-						-.072491881494998600,51.583354184664740000,0
+						-0.072491881494998600,51.583354184664740000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20579,7 +20579,7 @@
 				<description>Shadwell Station, London Underground Ltd., Cable St, London, E1 2QE</description>
 				<Point>
 					<coordinates>
-						-.056904475684454184,51.511228978184640000,0
+						-0.056904475684454184,51.511228978184640000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20671,7 +20671,7 @@
 				<description>Sloane Square Station, London Underground Ltd., Sloane Square, London, SW1W 8BB</description>
 				<Point>
 					<coordinates>
-						-.156486231690913330,51.492287824097220000,0
+						-0.156486231690913330,51.492287824097220000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20901,7 +20901,7 @@
 				<description>South Ealing Station, London Underground Ltd., South Ealing Rd, London, W5 4QB</description>
 				<Point>
 					<coordinates>
-						-.307018839246706250,51.501367936344180000,0
+						-0.307018839246706250,51.501367936344180000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -20984,7 +20984,7 @@
 				<description>South Harrow Station, London Underground Ltd., South Hill Ave, Harrow, Middx, HA2 8HN</description>
 				<Point>
 					<coordinates>
-						-.352211570870426400,51.564677570548550000,0
+						-0.352211570870426400,51.564677570548550000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21212,7 +21212,7 @@
 				<description>South Kensington Station, London Underground Ltd., Pelham St, London, SW7 2NB</description>
 				<Point>
 					<coordinates>
-						-.173922310883827400,51.493999872763690000,0
+						-0.173922310883827400,51.493999872763690000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21284,7 +21284,7 @@
 				<description>South Ruislip Station, London Underground Ltd., Station Approach, Ruislip, Middx, HA4 6DP</description>
 				<Point>
 					<coordinates>
-						-.398658757175952700,51.556516957971670000,0
+						-0.398658757175952700,51.556516957971670000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21367,7 +21367,7 @@
 				<description>South Wimbledon Station, London Underground Ltd., High St, London, SW19 1DE</description>
 				<Point>
 					<coordinates>
-						-.191979094023124400,51.415280365884330000,0
+						-0.191979094023124400,51.415280365884330000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21560,7 +21560,7 @@
 				<description>Southfields Station, Wimbledon Park Rd, London, SW18</description>
 				<Point>
 					<coordinates>
-						-.206537544055385570,51.444931327018910000,0
+						-0.206537544055385570,51.444931327018910000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21638,7 +21638,7 @@
 				<description>Southgate Station, London Underground Ltd., High St, London, N14</description>
 				<Point>
 					<coordinates>
-						-.127758393371046300,51.632319710071860000,0
+						-0.127758393371046300,51.632319710071860000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21720,7 +21720,7 @@
 				<description>Southwark Station, London Underground Ltd., 68 - 70 Blackfriars Rd, London, SE1 8NW</description>
 				<Point>
 					<coordinates>
-						-.105091836006184110,51.503843006939000000,0
+						-0.105091836006184110,51.503843006939000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21834,7 +21834,7 @@
 				<description>Stamford Brook Station, London Underground Ltd., Goldhawk Rd, London, W6</description>
 				<Point>
 					<coordinates>
-						-.245453795237972340,51.494796231456820000,0
+						-0.245453795237972340,51.494796231456820000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -21936,7 +21936,7 @@
 				<description>Stanmore Station, London Underground Ltd., London Rd, Stanmore, Middx, HA7 4PD</description>
 				<Point>
 					<coordinates>
-						-.303108171358637650,51.619618336838600000,0
+						-0.303108171358637650,51.619618336838600000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22026,7 +22026,7 @@
 				<description>Stepney Green Station, London Underground Ltd., Mile End Rd, London, E1 4AQ</description>
 				<Point>
 					<coordinates>
-						-.046458666350820540,51.521910629627830000,0
+						-0.046458666350820540,51.521910629627830000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22115,7 +22115,7 @@
 				<description>Stockwell Station, London Underground Ltd., Clapham Rd, London, SW9 9AE</description>
 				<Point>
 					<coordinates>
-						-.122909311662102960,51.472166538615750000,0
+						-0.122909311662102960,51.472166538615750000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22240,7 +22240,7 @@
 				<description>Stratford Station BR Station St, London, E15 1DE</description>
 				<Point>
 					<coordinates>
-						-.003195329570308264,51.541309265966866000,0
+						-0.003195329570308264,51.541309265966866000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22323,7 +22323,7 @@
 				<description>Sudbury Hill Underground Station, London Underground Ltd., Greenford Rd, Harrow, Middx, HA1 3RA</description>
 				<Point>
 					<coordinates>
-						-.336215632044355560,51.556996189234300000,0
+						-0.336215632044355560,51.556996189234300000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22434,7 +22434,7 @@
 				<description>Sudbury Town Station, London Underground Ltd., Station Approach, Wembley, Middx, HA0 2LA</description>
 				<Point>
 					<coordinates>
-						-.315482697033724100,51.550782456897100000,0
+						-0.315482697033724100,51.550782456897100000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22540,7 +22540,7 @@
 				<description>Surrey Quays Station, London Underground Ltd., Lower Rd, London, SE16 2UF</description>
 				<Point>
 					<coordinates>
-						-.047514931071433080,51.493193457463170000,0
+						-0.047514931071433080,51.493193457463170000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22666,7 +22666,7 @@
 				<description>Swiss Cottage Station, London Underground Ltd., Finchley Rd, London, NW3 6HY</description>
 				<Point>
 					<coordinates>
-						-.174759253028733900,51.543315320154384000,0
+						-0.174759253028733900,51.543315320154384000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22782,7 +22782,7 @@
 				<description>Temple Station, London Underground Ltd., Victoria Embankment, London, WC2R 2PH</description>
 				<Point>
 					<coordinates>
-						-.113703089738369980,51.510969984944460000,0
+						-0.113703089738369980,51.510969984944460000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -22938,7 +22938,7 @@
 				<description>Tooting Bec Station, London Underground Ltd., Balham High Rd, London, SW17 9AH</description>
 				<Point>
 					<coordinates>
-						-.159700539935752140,51.435759628808380000,0
+						-0.159700539935752140,51.435759628808380000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23016,7 +23016,7 @@
 				<description>Tooting Broadway Station, London Underground Ltd., Tooting High St, London, SW17 0SU</description>
 				<Point>
 					<coordinates>
-						-.167976763305219070,51.427435389662655000,0
+						-0.167976763305219070,51.427435389662655000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23223,7 +23223,7 @@
 				<description>Tottenham Court Road Station, London Underground Ltd., Oxford St, London, W1</description>
 				<Point>
 					<coordinates>
-						-.130870518140944360,51.516209552513860000,0
+						-0.130870518140944360,51.516209552513860000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23361,7 +23361,7 @@
 				<description>Tottenham Hale Underground Station, London Underground Ltd., Station Rd, London, N17 9LR</description>
 				<Point>
 					<coordinates>
-						-.060281116367504950,51.588045301521500000,0
+						-0.060281116367504950,51.588045301521500000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23434,7 +23434,7 @@
 				<description>Totteridge &amp; Whetstone Station, London Underground Ltd., Totteridge Lane, London, N20 9QP</description>
 				<Point>
 					<coordinates>
-						-.179261212923982800,51.630207704762380000,0
+						-0.179261212923982800,51.630207704762380000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23542,7 +23542,7 @@
 				<description>Tower Hill Station, London Underground Ltd., Trinity Square, London, EC3N 4DJ</description>
 				<Point>
 					<coordinates>
-						-.076353695174605170,51.510065953884120000,0
+						-0.076353695174605170,51.510065953884120000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23651,7 +23651,7 @@
 				<description>Tufnell Park Station, London Underground Ltd., Fortress Rd, London, N19 5QB</description>
 				<Point>
 					<coordinates>
-						-.137924881080636940,51.556666819988955000,0
+						-0.137924881080636940,51.556666819988955000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23750,7 +23750,7 @@
 				<description>Turnham Green Station, London Underground Ltd., Turnham Green Terrace, London, W4 1LR</description>
 				<Point>
 					<coordinates>
-						-.254532982987942970,51.495111725298166000,0
+						-0.254532982987942970,51.495111725298166000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -23864,7 +23864,7 @@
 				<description>Turnpike Lane Station, London Underground Ltd., Westbury Avenue, London, N15 3NX</description>
 				<Point>
 					<coordinates>
-						-.102792275055815370,51.590296770154760000,0
+						-0.102792275055815370,51.590296770154760000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -24244,7 +24244,7 @@
 				<description>Uxbridge Station, London Underground Ltd., High St, Uxbridge, Middx, UB8 1JZ</description>
 				<Point>
 					<coordinates>
-						-.478139472136282440,51.546496370460570000,0
+						-0.478139472136282440,51.546496370460570000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -24382,7 +24382,7 @@
 				<description>Vauxhall Underground Station, London Underground Ltd., Vauxhall Cross, London, SE1</description>
 				<Point>
 					<coordinates>
-						-.123748951030590600,51.485733376040270000,0
+						-0.123748951030590600,51.485733376040270000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -24607,7 +24607,7 @@
 				<description>Victoria Underground Station, London Underground Ltd., Victoria St, London, SW1E 5ND</description>
 				<Point>
 					<coordinates>
-						-.143844854340144740,51.496342174731000000,0
+						-0.143844854340144740,51.496342174731000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -24725,7 +24725,7 @@
 				<description>Walthamstow Central Station BR Hoe St, London, E17 7LP</description>
 				<Point>
 					<coordinates>
-						-.019918639025007567,51.582954705002570000,0
+						-0.019918639025007567,51.582954705002570000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -24905,7 +24905,7 @@
 				<description>Wapping Station, London Underground Ltd., Wapping High St, London, E1 9NQ</description>
 				<Point>
 					<coordinates>
-						-.055846250896647850,51.504268283481814000,0
+						-0.055846250896647850,51.504268283481814000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -25056,7 +25056,7 @@
 				<description>Warren Street Station, London Underground Ltd., Tottenham Court Rd, London, NW1 3AA</description>
 				<Point>
 					<coordinates>
-						-.138272313383213400,51.524511517547950000,0
+						-0.138272313383213400,51.524511517547950000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -25146,7 +25146,7 @@
 				<description>Warwick Avenue Station, London Underground Ltd., Warwick Avenue, London, W9 2PT</description>
 				<Point>
 					<coordinates>
-						-.183678270688914820,51.523272522746110000,0
+						-0.183678270688914820,51.523272522746110000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -25600,7 +25600,7 @@
 				<description>Waterloo Underground Station, London Underground Ltd., York Rd, London, SE1 7ND</description>
 				<Point>
 					<coordinates>
-						-.114069435807659030,51.503502207173680000,0
+						-0.114069435807659030,51.503502207173680000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -25682,7 +25682,7 @@
 				<description>Watford Station, London Underground Ltd., Cassiobury Park Avenue, Watford, Herts, WD1 7LE</description>
 				<Point>
 					<coordinates>
-						-.417280631945957540,51.657420971906490000,0
+						-0.417280631945957540,51.657420971906490000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -25793,7 +25793,7 @@
 				<description>Wembley Park Station, London Underground Ltd., Bridge Road, Wembley, Middlesex, HA9 9AA</description>
 				<Point>
 					<coordinates>
-						-.279251008726512000,51.563260483955110000,0
+						-0.279251008726512000,51.563260483955110000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -25871,7 +25871,7 @@
 				<description>West Acton Station, London Underground Ltd., Station Parade, London, W3 6UP</description>
 				<Point>
 					<coordinates>
-						-.280993289991878060,51.517860586187880000,0
+						-0.280993289991878060,51.517860586187880000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -25965,7 +25965,7 @@
 				<description>West Brompton Station, London Underground Ltd., Old Brompton Rd, London, SW5 9JX</description>
 				<Point>
 					<coordinates>
-						-.195540834373956750,51.487256950006746000,0
+						-0.195540834373956750,51.487256950006746000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26056,7 +26056,7 @@
 				<description>West Finchley Station, London Underground Ltd., Nether Street, London, N3 1NT</description>
 				<Point>
 					<coordinates>
-						-.188468869728233300,51.609485709772600000,0
+						-0.188468869728233300,51.609485709772600000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26236,7 +26236,7 @@
 				<description>West Hampstead Underground Station, London Underground Ltd., West End Lane, London, NW6 2LX</description>
 				<Point>
 					<coordinates>
-						-.190749850256434300,51.546701979094905000,0
+						-0.190749850256434300,51.546701979094905000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26309,7 +26309,7 @@
 				<description>West Harrow Station, London Underground Ltd., Vaughan Rd, Harrow, Middx, HA1 4HE</description>
 				<Point>
 					<coordinates>
-						-.352920630985434100,51.579778193709345000,0
+						-0.352920630985434100,51.579778193709345000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26393,7 +26393,7 @@
 				<description>West Kensington Station, London Underground Ltd., North End Rd, London, W14 9NL</description>
 				<Point>
 					<coordinates>
-						-.206477114705301220,51.490491685732100000,0
+						-0.206477114705301220,51.490491685732100000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26477,7 +26477,7 @@
 				<description>West Ruislip Station, London Underground Ltd., Ickenham Rd, West Ruislip, Middlesex</description>
 				<Point>
 					<coordinates>
-						-.437886436759924000,51.569528862920430000,0
+						-0.437886436759924000,51.569528862920430000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26566,7 +26566,7 @@
 				<description>Westbourne Park Station, London Underground Ltd., Western Rd, London, W11 1AB</description>
 				<Point>
 					<coordinates>
-						-.200883771467904430,51.520920849526010000,0
+						-0.200883771467904430,51.520920849526010000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26794,7 +26794,7 @@
 				<description>Westminster Station, London Underground Ltd., Bridge St, London, SW1A 2JR</description>
 				<Point>
 					<coordinates>
-						-.124818265200698930,51.501084583446460000,0
+						-0.124818265200698930,51.501084583446460000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26873,7 +26873,7 @@
 				<description>White City Station, London Underground Ltd., Wood Lane, London, W12 7RH</description>
 				<Point>
 					<coordinates>
-						-.224254319227984920,51.511978113587034000,0
+						-0.224254319227984920,51.511978113587034000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -26978,7 +26978,7 @@
 				<description>Whitechapel Station, London Underground Ltd., 277 Whitechapel Rd, London, E1 1BY</description>
 				<Point>
 					<coordinates>
-						-.059984982962259466,51.519455246890790000,0
+						-0.059984982962259466,51.519455246890790000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -27057,7 +27057,7 @@
 				<description>Willesden Green Station, London Underground Ltd., Walm Lane, London, NW2 4QT</description>
 				<Point>
 					<coordinates>
-						-.222410152080799300,51.549308888247985000,0
+						-0.222410152080799300,51.549308888247985000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -27139,7 +27139,7 @@
 				<description>Wimbledon Park Station, Arthur Rd, London, SW19</description>
 				<Point>
 					<coordinates>
-						-.199595272173123170,51.434464186025440000,0
+						-0.199595272173123170,51.434464186025440000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -27221,7 +27221,7 @@
 				<description>Wood Green Station, London Underground Ltd., High Rd, Wood Green, London, N22 4HH</description>
 				<Point>
 					<coordinates>
-						-.109626380548445640,51.597476031308410000,0
+						-0.109626380548445640,51.597476031308410000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -27439,7 +27439,7 @@
 				<description>Woodside Park Station, London Underground Ltd., Woodside Park Rd, London, N12 8SE</description>
 				<Point>
 					<coordinates>
-						-.185421027508838540,51.617811407382945000,0
+						-0.185421027508838540,51.617811407382945000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -27485,7 +27485,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.012751749577122285,51.511010078082435000,0
+						-0.012751749577122285,51.511010078082435000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -27623,7 +27623,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.007108496961494498,51.508216114618390000,0
+						-0.007108496961494498,51.508216114618390000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -27669,7 +27669,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.020691424393872180,51.527333106708156000,0
+						-0.020691424393872180,51.527333106708156000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -27746,7 +27746,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.011661937058285864,51.524769937557340000,0
+						-0.011661937058285864,51.524769937557340000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -27792,7 +27792,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.014614325661385941,51.495698374116300000,0
+						-0.014614325661385941,51.495698374116300000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -27932,7 +27932,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.010858772708086980,51.481694371850814000,0
+						-0.010858772708086980,51.481694371850814000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -28036,7 +28036,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.021550621322944774,51.474284721273506000,0
+						-0.021550621322944774,51.474284721273506000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -28082,7 +28082,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.017224616322978142,51.522175080544790000,0
+						-0.017224616322978142,51.522175080544790000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -28140,7 +28140,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.002748663563422358,51.509041249107980000,0
+						-0.002748663563422358,51.509041249107980000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -28215,7 +28215,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.170135073011915440,51.520183893832000000,0
+						-0.170135073011915440,51.520183893832000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -28316,7 +28316,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.167666130737583900,51.519920474367346000,0
+						-0.167666130737583900,51.519920474367346000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -28378,7 +28378,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.017467307436164158,51.468819427590320000,0
+						-0.017467307436164158,51.468819427590320000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -28494,7 +28494,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.014198816568398007,51.477757816350250000,0
+						-0.014198816568398007,51.477757816350250000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -28555,7 +28555,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.275175034795658400,51.491793104326040000,0
+						-0.275175034795658400,51.491793104326040000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -28778,7 +28778,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.224930071064953470,51.493497772006556000,0
+						-0.224930071064953470,51.493497772006556000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -28852,7 +28852,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.222401730524214160,51.492569079748954000,0
+						-0.222401730524214160,51.492569079748954000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -28907,7 +28907,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.257502755154927540,51.536192910154740000,0
+						-0.257502755154927540,51.536192910154740000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -28980,7 +28980,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.335231166241641700,51.592208827964880000,0
+						-0.335231166241641700,51.592208827964880000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -29075,7 +29075,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.337015904256826800,51.579328867281140000,0
+						-0.337015904256826800,51.579328867281140000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -29190,7 +29190,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.452439130961683100,51.471219210060410000,0
+						-0.452439130961683100,51.471219210060410000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -29236,7 +29236,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.021744064999687465,51.503067915299190000,0
+						-0.021744064999687465,51.503067915299190000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -29282,7 +29282,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.009489509781986224,51.486671636732005000,0
+						-0.009489509781986224,51.486671636732005000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -29331,7 +29331,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.224716964703163850,51.530457666116990000,0
+						-0.224716964703163850,51.530457666116990000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -29380,7 +29380,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.210382523117471270,51.497809167384910000,0
+						-0.210382523117471270,51.497809167384910000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -29429,7 +29429,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.317164405857978500,51.581788462601410000,0
+						-0.317164405857978500,51.581788462601410000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -29512,7 +29512,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.285252328214689150,51.477029930152850000,0
+						-0.285252328214689150,51.477029930152850000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -30188,7 +30188,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.123857948142452990,51.530397237917526000,0
+						-0.123857948142452990,51.530397237917526000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -30234,7 +30234,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.014706587477352798,51.466074537491664000,0
+						-0.014706587477352798,51.466074537491664000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -30280,7 +30280,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.039712576574314410,51.512498517496160000,0
+						-0.039712576574314410,51.512498517496160000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -30342,7 +30342,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.015091214701629630,51.490364179631120000,0
+						-0.015091214701629630,51.490364179631120000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -30391,7 +30391,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.032594570758595160,51.476674202455730000,0
+						-0.032594570758595160,51.476674202455730000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -30440,7 +30440,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.040299579158885705,51.475337384701450000,0
+						-0.040299579158885705,51.475337384701450000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -30489,7 +30489,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.304155735382629300,51.562490285575436000,0
+						-0.304155735382629300,51.562490285575436000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -30535,7 +30535,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.017228773736863470,51.507488443277030000,0
+						-0.017228773736863470,51.507488443277030000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -30639,7 +30639,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.013174228379466220,51.534400840867900000,0
+						-0.013174228379466220,51.534400840867900000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -30694,7 +30694,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.204704090234202700,51.534100903446934000,0
+						-0.204704090234202700,51.534100903446934000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -30763,7 +30763,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.301754217686892100,51.463159640859740000,0
+						-0.301754217686892100,51.463159640859740000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -30941,7 +30941,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.226305459017774930,51.505560868490754000,0
+						-0.226305459017774930,51.505560868490754000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31012,7 +31012,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.226305459017774930,51.505560868490754000,0
+						-0.226305459017774930,51.505560868490754000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31073,7 +31073,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.308588675020215030,51.570171686871360000,0
+						-0.308588675020215030,51.570171686871360000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31119,7 +31119,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.019101694079593993,51.500532011008650000,0
+						-0.019101694079593993,51.500532011008650000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -31259,7 +31259,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.134183744115531720,51.499345456140375000,0
+						-0.134183744115531720,51.499345456140375000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31326,7 +31326,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.174172356336729750,51.534564516315330000,0
+						-0.174172356336729750,51.534564516315330000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31417,7 +31417,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.097573654477604190,51.514801296733296000,0
+						-0.097573654477604190,51.514801296733296000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31476,7 +31476,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.275409247579834260,51.543922285834710000,0
+						-0.275409247579834260,51.543922285834710000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31522,7 +31522,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.074530960965560940,51.510566638763080000,0
+						-0.074530960965560940,51.510566638763080000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -31577,7 +31577,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.296859445373195800,51.552329965978000000,0
+						-0.296859445373195800,51.552329965978000000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31623,7 +31623,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.020148081137071500,51.506638439327860000,0
+						-0.020148081137071500,51.506638439327860000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -31675,7 +31675,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.025791956499847963,51.509431782335305000,0
+						-0.025791956499847963,51.509431782335305000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#dlrStyle</styleUrl>
@@ -31724,7 +31724,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.244288894517034600,51.532191497103640000,0
+						-0.244288894517034600,51.532191497103640000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
@@ -31773,7 +31773,7 @@
 				</description>
 				<Point>
 					<coordinates>
-						-.206381586903591980,51.421383719531770000,0
+						-0.206381586903591980,51.421383719531770000,0
 					</coordinates>
 				</Point>
 				<styleUrl>#tubeStyle</styleUrl>
