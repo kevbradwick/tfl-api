@@ -59,7 +59,7 @@ func FindMany(query interface{}, limit, offset int) (stations []lib.Station, err
 	defer s.Close()
 	c := s.DB("tfldata").C("tube_stations")
 	stations = []lib.Station{}
-	err = c.Find(query).Limit(limit).All(&stations)
+	err = c.Find(query).Limit(limit).Skip(offset).All(&stations)
 
 	// some other error happened??
 	if err != nil && err != mgo.ErrNotFound {
