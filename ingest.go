@@ -53,7 +53,7 @@ func run(c *cli.Context) {
 		if s.Type == "tube" {
 			lat, _ := strconv.ParseFloat(s.Latitude(), 32)
 			lon, _ := strconv.ParseFloat(s.Longitude(), 32)
-			latlon := ingest.LatLon{lat, lon}
+			latlon := ingest.LatLon{[]float64{lat, lon}, "Point"}
 			doc := &ingest.StationDocument{s.Id, s.Name, s.Address, s.Telephone, s.Lines,
 				s.Zones, s.Facilities, s.Entrances, latlon}
 			err := collection.Insert(doc)
@@ -62,9 +62,9 @@ func run(c *cli.Context) {
 				os.Exit(2)
 			}
 		}
-
 	}
-
+	// create geospatial index
+	collection.EnsureIndex(mgo.Index{Key: []string{"$2dsphere:location"}})
 }
 
 func main() {

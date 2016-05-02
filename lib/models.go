@@ -1,8 +1,8 @@
 package lib
 
 type Coordinate struct {
-	Latitude  float64 `json:"latitude"`
-	Longitude float64 `json:"longitude"`
+	Coordinates []float64 `json:"coordinates"`
+	Type        string    `json:"type"`
 }
 
 type Facility struct {
@@ -29,5 +29,5 @@ type Station struct {
 	Zones      []string   `json:"zones"`
 	Facilities []Facility `json:"facilities"`
 	Entrances  []Entrance `json:"entrances"`
-	Coordinate Coordinate `json:"coordinate"`
+	Location   Coordinate `json:"location"`
 }

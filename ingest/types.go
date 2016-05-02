@@ -47,7 +47,8 @@ func (s *Station) Latitude() string {
 }
 
 type LatLon struct {
-	Latitude, Longitude float64
+	Coordinates []float64
+	Type        string
 }
 
 type StationDocument struct {
@@ -59,5 +60,5 @@ type StationDocument struct {
 	Zones      []string
 	Facilities []Facility
 	Entrances  []Entrance
-	Coordinate LatLon
+	Location   LatLon
 }

@@ -41,7 +41,7 @@ func FindMany(query interface{}) (stations []lib.Station, err error) {
 	defer s.Close()
 	c := s.DB("tfldata").C("tube_stations")
 	stations = []lib.Station{}
-	err = c.Find(query).All(&stations)
+	err = c.Find(query).Limit(10).All(&stations)
 	// some other error happened??
 	if err != nil && err != mgo.ErrNotFound {
 		log.Fatal("MongoDB query failed. %q", err)
