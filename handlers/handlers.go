@@ -3,12 +3,12 @@ package handlers
 import (
 	"encoding/json"
 	"github.com/gorilla/mux"
+	"github.com/kevbradwick/tflapi/lib"
 	"github.com/kevbradwick/tflapi/query"
 	"gopkg.in/mgo.v2/bson"
 	"net/http"
 	"strconv"
 	"strings"
-	"github.com/kevbradwick/tflapi/lib"
 )
 
 type Error struct {
