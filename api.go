@@ -3,8 +3,8 @@ package main
 import (
 	gh "github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"net/http"
 	"github.com/kevbradwick/tflapi/app"
+	"net/http"
 )
 
 func main() {

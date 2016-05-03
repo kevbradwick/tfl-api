@@ -19,9 +19,9 @@ type Error struct {
 }
 
 type ListResponse struct {
-	Total    int           `json:"total"`
-	Next     string        `json:"next"`
-	Previous string        `json:"previous"`
+	Total    int       `json:"total"`
+	Next     string    `json:"next"`
+	Previous string    `json:"previous"`
 	Results  []Station `json:"results"`
 }
 
