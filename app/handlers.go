@@ -1,11 +1,9 @@
-package handlers
+package app
 
 import (
 	"encoding/json"
 	"fmt"
 	"github.com/gorilla/mux"
-	"github.com/kevbradwick/tflapi/lib"
-	"github.com/kevbradwick/tflapi/query"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 	"math"
@@ -24,12 +22,12 @@ type ListResponse struct {
 	Total    int           `json:"total"`
 	Next     string        `json:"next"`
 	Previous string        `json:"previous"`
-	Results  []lib.Station `json:"results"`
+	Results  []Station `json:"results"`
 }
 
-func GetStation(w http.ResponseWriter, r *http.Request) {
+func GetStationHandler(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
-	station, err := query.FindOne(bson.M{"id": vars["id"]})
+	station, err := FindOne(bson.M{"id": vars["id"]})
 
 	// err can only be a 404
 	if err != nil {
@@ -57,7 +55,7 @@ func GetStation(w http.ResponseWriter, r *http.Request) {
 //	lines
 //		Query multiple lines e.g. ?lines=District,Circle
 //
-func Search(w http.ResponseWriter, r *http.Request) {
+func SearchHandler(w http.ResponseWriter, r *http.Request) {
 	val := ""
 	page := 1
 	limit := 10
@@ -96,7 +94,7 @@ func Search(w http.ResponseWriter, r *http.Request) {
 		page, _ = strconv.Atoi(val)
 	}
 
-	count, _ := query.Count(q) // total number of documents returned
+	count, _ := Count(q) // total number of documents returned
 	var previousPage string
 	var nextPage string
 	totalPages := math.Ceil(float64(count) / float64(limit))
@@ -114,7 +112,7 @@ func Search(w http.ResponseWriter, r *http.Request) {
 	}
 
 	offset = (page * limit) - limit
-	stations, err := query.FindMany(q, limit, offset)
+	stations, err := FindMany(q, limit, offset)
 	response := &ListResponse{count, nextPage, previousPage, stations}
 
 	// TODO move this higher up, outside of the handler function
