@@ -25,6 +25,24 @@ type ListResponse struct {
 	Results  []Station `json:"results"`
 }
 
+// handeler. This will wrap the original handlers so that the application can
+// recover from a panic and provide a meaningful response and log useful
+// debug information.
+func handler(main func(w http.ResponseWriter, r *http.Request)) func(w http.ResponseWriter, r *http.Request) {
+	// wrapped handler that can recover from a panic and send a 500
+	return func(w http.ResponseWriter, r *http.Request) {
+		defer func() {
+			recover()
+			status := 500
+			message := "An internal server error occurred. Please try again later."
+			json.NewEncoder(w).Encode(&Error{status, message})
+		}()
+
+		// call the main handler
+		main(w, r)
+	}
+}
+
 func GetStationHandler(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	station, err := FindOne(bson.M{"id": vars["id"]})
