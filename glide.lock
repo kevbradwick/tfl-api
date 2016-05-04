@@ -1,0 +1,18 @@
+hash: 5a0ca2c9b62106a497ed99fc09be8b66cf93bea0948521e24478940e7c9d14ac
+updated: 2016-05-04T20:29:42.882755701+01:00
+imports:
+- name: github.com/codegangsta/cli
+  version: 839f07bfe4819fa1434fa907d0804ce6ec45a5df
+- name: github.com/gorilla/context
+  version: a8d44e7d8e4d532b6a27a02dd82abb31cc1b01bd
+- name: github.com/gorilla/handlers
+  version: 66e6c6f01d8da976ee113437745ca029c2b585a6
+- name: github.com/gorilla/mux
+  version: 9c19ed558d5df4da88e2ade9c8940d742aef0e7e
+- name: gopkg.in/mgo.v2
+  version: b6e2fa371e64216a45e61072a96d4e3859f169da
+  subpackages:
+  - bson
+  - internal/sasl
+  - internal/scram
+devImports: []
