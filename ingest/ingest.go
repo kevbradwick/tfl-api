@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"github.com/codegangsta/cli"
-	"github.com/kevbradwick/tflapi/ingest"
+	"github.com/kevbradwick/tflapi/app"
 	"gopkg.in/mgo.v2"
 	"os"
 	"strconv"
@@ -35,7 +35,7 @@ func run(c *cli.Context) {
 	defer xmlFile.Close()
 
 	// `d` will contain all the unmarshalled station data
-	var d ingest.Data
+	var d app.DataNode
 	xml.NewDecoder(xmlFile).Decode(&d)
 
 	// insert them into mongo
@@ -53,8 +53,8 @@ func run(c *cli.Context) {
 		if s.Type == "tube" {
 			lat, _ := strconv.ParseFloat(s.Latitude(), 32)
 			lon, _ := strconv.ParseFloat(s.Longitude(), 32)
-			latlon := ingest.LatLon{[]float64{lat, lon}, "Point"}
-			doc := &ingest.StationDocument{s.Id, s.Name, s.Address, s.Telephone, s.Lines,
+			latlon := app.LatLonNode{[]float64{lat, lon}, "Point"}
+			doc := &app.StationDocument{s.Id, s.Name, s.Address, s.Telephone, s.Lines,
 				s.Zones, s.Facilities, s.Entrances, latlon}
 			err := collection.Insert(doc)
 			if err != nil {
