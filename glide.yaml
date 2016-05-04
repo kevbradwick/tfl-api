@@ -1,0 +1,8 @@
+package: github.com/kevbradwick/tflapi
+import:
+- package: github.com/codegangsta/cli
+- package: github.com/gorilla/handlers
+- package: github.com/gorilla/mux
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
