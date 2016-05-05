@@ -1,18 +1,31 @@
-hash: 5a0ca2c9b62106a497ed99fc09be8b66cf93bea0948521e24478940e7c9d14ac
-updated: 2016-05-04T20:29:42.882755701+01:00
+hash: 29edfca93985617580e6983d9d254862fff9ca21d97b79292ecd666babd60819
+updated: 2016-05-05T20:21:19.037837764+01:00
 imports:
 - name: github.com/codegangsta/cli
-  version: 839f07bfe4819fa1434fa907d0804ce6ec45a5df
-- name: github.com/gorilla/context
-  version: a8d44e7d8e4d532b6a27a02dd82abb31cc1b01bd
-- name: github.com/gorilla/handlers
-  version: 66e6c6f01d8da976ee113437745ca029c2b585a6
-- name: github.com/gorilla/mux
-  version: 9c19ed558d5df4da88e2ade9c8940d742aef0e7e
+  version: 75b97d09d9f5792ff997e249a330a3ca28f8b537
+- name: github.com/gin-gonic/gin
+  version: 542be2fe77724f800fcab7eb6c01a4e597fb8506
+  subpackages:
+  - binding
+  - render
+- name: github.com/golang/protobuf
+  version: 2402d76f3d41f928c7902a765dfc872356dd3aad
+  subpackages:
+  - proto
+- name: github.com/manucorporat/sse
+  version: ee05b128a739a0fb76c7ebd3ae4810c1de808d6d
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+- name: gopkg.in/go-playground/validator.v8
+  version: c193cecd124b5cc722d7ee5538e945bdb3348435
 - name: gopkg.in/mgo.v2
   version: b6e2fa371e64216a45e61072a96d4e3859f169da
   subpackages:
   - bson
   - internal/sasl
   - internal/scram
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
 devImports: []

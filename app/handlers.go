@@ -1,14 +1,11 @@
 package app
 
 import (
-	"encoding/json"
+	"github.com/gin-gonic/gin"
 	"fmt"
-	"github.com/gorilla/mux"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 	"math"
-	"net/http"
-	"net/url"
 	"strconv"
 	"strings"
 )
@@ -25,36 +22,23 @@ type ListResponse struct {
 	Results  []Station `json:"results"`
 }
 
-// handeler. This will wrap the original handlers so that the application can
-// recover from a panic and provide a meaningful response and log useful
-// debug information.
-func handler(main func(w http.ResponseWriter, r *http.Request)) func(w http.ResponseWriter, r *http.Request) {
-	// wrapped handler that can recover from a panic and send a 500
-	return func(w http.ResponseWriter, r *http.Request) {
+func PanicHandler() func(c *gin.Context) {
+	return func(c *gin.Context) {
 		defer func() {
-			recover()
-			status := 500
-			message := "An internal server error occurred. Please try again later."
-			json.NewEncoder(w).Encode(&Error{status, message})
+			if err := recover(); err != nil {
+				c.JSON(404, gin.H{"status": 500, "error": "Internal server error"})
+			}
 		}()
-
-		// call the main handler
-		main(w, r)
+		c.Next()
 	}
 }
 
-func GetStationHandler(w http.ResponseWriter, r *http.Request) {
-	vars := mux.Vars(r)
-	station, err := FindOne(bson.M{"id": vars["id"]})
-
-	// err can only be a 404
-	if err != nil {
-		w.WriteHeader(http.StatusNotFound)
-		json.NewEncoder(w).Encode(&Error{404, "Station not found"})
-		return
+func GetStationHandler(c *gin.Context) {
+	if station, err := FindOne(bson.M{"id": c.Param("id")}); err != nil {
+		panic(err)
+	} else {
+		c.JSON(200, station)
 	}
-
-	json.NewEncoder(w).Encode(station)
 }
 
 // Search
@@ -73,7 +57,7 @@ func GetStationHandler(w http.ResponseWriter, r *http.Request) {
 //	lines
 //		Query multiple lines e.g. ?lines=District,Circle
 //
-func SearchHandler(w http.ResponseWriter, r *http.Request) {
+func SearchHandler(c *gin.Context) {
 	val := ""
 	page := 1
 	limit := 10
@@ -82,23 +66,20 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 	// build up the final query in this var
 	q := bson.M{}
 
-	// the original query string, parsed
-	v, _ := url.ParseQuery(r.URL.RawQuery)
-
-	if val = v.Get("name"); val != "" {
+	if val = c.Query("name"); val != "" {
 		q["name"] = val
 	}
 
-	if val = v.Get("zones"); val != "" {
+	if val = c.Query("zones"); val != "" {
 		q["zones"] = bson.M{"$in": strings.Split(val, ",")}
 	}
 
-	if val = v.Get("lines"); val != "" {
+	if val = c.Query("lines"); val != "" {
 		q["lines"] = bson.M{"$in": strings.Split(val, ",")}
 	}
 
 	// geospatial search
-	if val = v.Get("near"); val != "" {
+	if val = c.Query("near"); val != "" {
 		coords := strings.Split(val, ",")
 		lon, lonErr := strconv.ParseFloat(coords[0], 64)
 		lat, latErr := strconv.ParseFloat(coords[1], 64)
@@ -108,7 +89,7 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	if val = v.Get("page"); val != "" {
+	if val = c.Query("page"); val != "" {
 		page, _ = strconv.Atoi(val)
 	}
 
@@ -118,15 +99,15 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 	totalPages := math.Ceil(float64(count) / float64(limit))
 
 	if page > 1 {
-		qs := r.URL.Query()
+		qs := c.Request.URL.Query()
 		qs.Set("page", strconv.Itoa(page-1))
 		previousPage = fmt.Sprintf("/station/search?%s", qs.Encode())
 	}
 
 	if (float64(page + 1)) <= totalPages {
-		qs := r.URL.Query()
+		qs := c.Request.URL.Query()
 		qs.Set("page", strconv.Itoa(page+1))
-		nextPage = fmt.Sprintf("/station/search?%s", qs.Encode())
+		nextPage = fmt.Sprintf("/stations/search?%s", qs.Encode())
 	}
 
 	offset = (page * limit) - limit
@@ -135,16 +116,9 @@ func SearchHandler(w http.ResponseWriter, r *http.Request) {
 
 	// TODO move this higher up, outside of the handler function
 	if err != nil {
-		status := http.StatusInternalServerError
-		message := "Something bad just happened. Please try again later."
 		if err == mgo.ErrNotFound {
-			status = http.StatusNotFound
-			message = "No results found"
+			panic(&HttpError{})
 		}
-		w.WriteHeader(status)
-		json.NewEncoder(w).Encode(&Error{status, message})
-		return
 	}
-
-	json.NewEncoder(w).Encode(response)
+	c.JSON(200, response)
 }

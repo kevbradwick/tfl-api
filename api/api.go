@@ -1,16 +1,18 @@
 package main
 
 import (
-	gh "github.com/gorilla/handlers"
-	"github.com/gorilla/mux"
+	"github.com/gin-gonic/gin"
 	"github.com/kevbradwick/tflapi/app"
-	"net/http"
 )
 
 func main() {
-	rtr := mux.NewRouter()
-	rtr.HandleFunc("/station/{id:[\\d]+}", app.GetStationHandler)
-	rtr.HandleFunc("/station/search", app.SearchHandler)
-	http.Handle("/", rtr)
-	http.ListenAndServe(":8000", gh.CompressHandler(rtr))
+	router := gin.New()
+	router.Use(gin.Logger())
+	router.Use(app.PanicHandler())
+	station := router.Group("/stations")
+	{
+		station.GET("/search", app.SearchHandler)
+		station.GET("/station/:id", app.GetStationHandler)
+	}
+	router.Run("0.0.0.0:8000")
 }
