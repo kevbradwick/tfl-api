@@ -8,6 +8,10 @@ a MongoDB instance. It also builds a HTTP API (`api.go`) to query the data.
 
 ### Installation
 
+If using [glide](https://glide.sh/) install the vendor dependencies
+
+    glide install
+
 Load the data into Mongo using the ingest tool
 
     go run ingest/ingest.go --input=data/stationsfacilities.xml
