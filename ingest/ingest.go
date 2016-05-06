@@ -21,7 +21,7 @@ func getString(c *cli.Context, name, defaultVal string) string {
 // main runner
 //
 // this will read the input file
-func run(c *cli.Context) {
+func run(c *cli.Context) (err error) {
 	// check the file exists
 	if _, err := os.Stat(c.String("input")); os.IsNotExist(err) {
 		fmt.Fprintf(os.Stderr, "The file %q does not exist", c.String("input"))
@@ -65,6 +65,8 @@ func run(c *cli.Context) {
 	}
 	// create geospatial index
 	collection.EnsureIndex(mgo.Index{Key: []string{"$2dsphere:location"}})
+
+	return
 }
 
 func main() {
