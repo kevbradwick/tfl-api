@@ -10,11 +10,9 @@ import (
 	"strings"
 )
 
-type Error struct {
-	Code    int    `json:"code"`
-	Message string `json:"message"`
-}
-
+// ListResponse is a struct for rendering responses with many results. It
+// contains next and previous links as well as the total count of records for
+// the given query.
 type ListResponse struct {
 	Total    int       `json:"total"`
 	Next     string    `json:"next"`
@@ -22,20 +20,39 @@ type ListResponse struct {
 	Results  []Station `json:"results"`
 }
 
+// PanicHandler will recover from panics and return the correct http status for
+// the given error. If the error is not an instance of HttpError then a 500
+// status will be returned.
 func PanicHandler() func(c *gin.Context) {
 	return func(c *gin.Context) {
 		defer func() {
 			if err := recover(); err != nil {
-				c.JSON(404, gin.H{"status": 500, "error": "Internal server error"})
+				if e := err.(HttpError); e != nil {
+					c.JSON(e.StatusCode(), gin.H{
+						"error":   true,
+						"message": e.Message(),
+					})
+				} else {
+					c.JSON(500, gin.H{
+						"error":   true,
+						"message": "An error occured. Please try again later",
+					})
+				}
 			}
 		}()
 		c.Next()
 	}
 }
 
+// GetStationHandler will get a single tube station using the given id in the
+// path parameter.
 func GetStationHandler(c *gin.Context) {
 	if station, err := FindOne(bson.M{"id": c.Param("id")}); err != nil {
-		panic(err)
+		if err == mgo.ErrNotFound {
+			panic(&GenericHttpError{404, "Not found."})
+		} else {
+			panic(err)
+		}
 	} else {
 		c.JSON(200, station)
 	}
@@ -93,7 +110,11 @@ func SearchHandler(c *gin.Context) {
 		page, _ = strconv.Atoi(val)
 	}
 
-	count, _ := Count(q) // total number of documents returned
+	count, err := Count(q) // total number of documents returned
+	if err != nil {
+		panic(err)
+	}
+
 	var previousPage string
 	var nextPage string
 	totalPages := math.Ceil(float64(count) / float64(limit))
@@ -114,11 +135,27 @@ func SearchHandler(c *gin.Context) {
 	stations, err := FindMany(q, limit, offset)
 	response := &ListResponse{count, nextPage, previousPage, stations}
 
-	// TODO move this higher up, outside of the handler function
 	if err != nil {
-		if err == mgo.ErrNotFound {
-			panic(&HttpError{})
-		}
+		panic(err)
 	}
+
 	c.JSON(200, response)
+}
+
+// Lines handler will list all the lines tube stations are on.
+func LinesHandler(c *gin.Context) {
+	lines, err := DistinctQuery("lines")
+	if err != nil {
+		panic(err)
+	}
+	c.JSON(200, lines)
+}
+
+// ZonesHandler will list all the zones the tube stations runs through.
+func ZonesHandler(c *gin.Context) {
+	zones, err := DistinctQuery("zones")
+	if err != nil {
+		panic(err)
+	}
+	c.JSON(200, zones)
 }

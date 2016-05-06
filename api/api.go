@@ -14,5 +14,8 @@ func main() {
 		station.GET("/search", app.SearchHandler)
 		station.GET("/station/:id", app.GetStationHandler)
 	}
+
+	router.GET("/lines", app.LinesHandler)
+	router.GET("/zones", app.ZonesHandler)
 	router.Run("0.0.0.0:8000")
 }

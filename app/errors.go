@@ -1,21 +1,19 @@
 package app
 
-import "fmt"
-
-type HttpError struct {
-	Code    int
-	Message string
+type HttpError interface {
+	StatusCode() int
+	Message() string
 }
 
-func (h *HttpError) Error() string {
-	return fmt.Sprintf("HTTP %d: %s", h.Code, h.Message)
+type GenericHttpError struct {
+	code    int
+	message string
 }
 
-type DbError struct {
-	Message string
-	Query   interface{}
+func (h *GenericHttpError) StatusCode() int {
+	return h.code
 }
 
-func (d *DbError) Error() string {
-	return fmt.Sprintf("A Mongo query error occured. %q", d.Query)
+func (h *GenericHttpError) Message() string {
+	return h.message
 }

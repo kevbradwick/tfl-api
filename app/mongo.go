@@ -2,8 +2,12 @@ package app
 
 import (
 	"gopkg.in/mgo.v2"
+	"gopkg.in/mgo.v2/bson"
 	"log"
 )
+
+const db string = "tfldata"
+const collectionName string = "tube_stations"
 
 // Coordinate
 // A struct that represents a GeoJSON object so that we can perform 2d
@@ -61,7 +65,7 @@ func session() (s *mgo.Session) {
 
 func execQuery(q interface{}) (s *mgo.Session, query *mgo.Query) {
 	s = session()
-	c := s.DB("tfldata").C("tube_stations")
+	c := s.DB(db).C(collectionName)
 	return s, c.Find(q)
 }
 
@@ -98,5 +102,13 @@ func FindMany(query interface{}, limit, offset int) (stations []Station, err err
 	defer s.Close()
 	stations = []Station{}
 	err = q.Limit(limit).Skip(offset).All(&stations)
-	return stations, err
+	return
+}
+
+// DistinctQuery will query the entire collection for distinct values
+func DistinctQuery(field string) (values []string, err error) {
+	s := session()
+	c := s.DB(db).C(collectionName)
+	err = c.Find(bson.M{}).Distinct(field, &values)
+	return
 }
